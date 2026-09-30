@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Unirise Barcode Solutions | Get a Free Quote</title>
+  <meta name="description" content="Contact Unirise Barcode Solutions for barcode scanners, printers, RFID solutions and labels. Get a free quote, product demo or technical support." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .map-embed { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); margin-top: 24px; }
+    .map-embed iframe { display: block; width: 100%; height: 300px; border: none; }
+    .office-hours { background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: white; border-radius: var(--radius); padding: 24px; margin-top: 16px; }
+    .office-hours h4 { font-size: 1rem; font-weight: 700; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+    .office-hours ul li { display: flex; justify-content: space-between; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 0.83rem; }
+    .office-hours ul li:last-child { border-bottom: none; }
+    .office-hours ul li span { opacity: 0.8; }
+    .office-hours ul li strong { color: var(--secondary); }
+    .faq-item { background: white; border: 1px solid var(--border); border-radius: var(--radius-sm); margin-bottom: 12px; overflow: hidden; }
+    .faq-question { padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; font-weight: 600; color: var(--dark); user-select: none; }
+    .faq-question:hover { background: var(--light-bg); }
+    .faq-question i { transition: var(--transition); color: var(--primary); font-size: 0.8rem; }
+    .faq-answer { padding: 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+    .faq-answer p { font-size: 0.85rem; color: var(--text-light); line-height: 1.7; padding-bottom: 16px; }
+    .faq-item.open .faq-answer { max-height: 200px; }
+    .faq-item.open .faq-question i { transform: rotate(180deg); }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <a href="tel:+918595868613"><i class="fas fa-phone"></i> +91 85958 68613</a>
+        <a href="mailto:info@unirisebarcode.com"><i class="fas fa-envelope"></i> info@unirisebarcode.com</a>
+      </div>
+      <div class="topbar-right">
+        <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        <a href="#"><i class="fas fa-map-marker-alt"></i> Noida, U.P., India</a>
+        <a href="#"><i class="fas fa-clock"></i> Mon–Sat: 9:30AM – 6:30PM</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="Unirise Barcode Solutions" class="site-logo"></a>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="products.html">Products <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="products.html#scanners"><i class="fas fa-barcode"></i> Barcode Scanners</a></li>
+              <li><a href="products.html#printers"><i class="fas fa-print"></i> Barcode Printers</a></li>
+              <li><a href="products.html#rfid"><i class="fas fa-wifi"></i> RFID Solutions</a></li>
+              <li><a href="products.html#mobile"><i class="fas fa-mobile-alt"></i> Mobile Computers</a></li>
+              <li><a href="products.html#pos"><i class="fas fa-cash-register"></i> POS Systems</a></li>
+              <li><a href="products.html#labels"><i class="fas fa-tags"></i> Labels &amp; Ribbons</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="solutions.html">Solutions <i class="fas fa-chevron-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="solutions.html#retail"><i class="fas fa-store"></i> Retail</a></li>
+              <li><a href="solutions.html#healthcare"><i class="fas fa-hospital"></i> Healthcare</a></li>
+              <li><a href="solutions.html#manufacturing"><i class="fas fa-industry"></i> Manufacturing</a></li>
+              <li><a href="solutions.html#logistics"><i class="fas fa-truck"></i> Logistics</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="tel:+918595868613" class="btn btn-outline"><i class="fas fa-phone"></i> Call Now</a>
+          <a href="contact.html" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Get Quote</a>
+          <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-header">
+      <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="Unirise Barcode Solutions" class="site-logo"></a>
+      <button class="mobile-menu-close" id="mobileClose"><i class="fas fa-times"></i></button>
+    </div>
+    <ul>
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="products.html"><i class="fas fa-boxes"></i> Products</a></li>
+      <li><a href="solutions.html"><i class="fas fa-lightbulb"></i> Solutions</a></li>
+      <li><a href="about.html"><i class="fas fa-building"></i> About Us</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+    <div class="mobile-menu-footer">
+      <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
+      <a href="tel:+918595868613" class="btn btn-outline">Call: +91 85958 68613</a>
+    </div>
+  </div>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Get in touch for product enquiries, quotes, demos or technical support — we respond within 2 hours</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><i class="fas fa-chevron-right"></i><span>Contact</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- LEFT: Info -->
+        <div>
+          <div class="contact-info-cards">
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-info-text">
+                <h4>Our Office</h4>
+                <p>B-68, Sector 88, Noida Phase-2,<br>Gautam Budh Nagar, U.P 201305</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-info-text">
+                <h4>Phone Numbers</h4>
+                <p><a href="tel:+918595868613">+91 85958 68613</a> (Sales)<br><a href="tel:+918595868613">+91 85958 68613</a> (Support)</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-info-text">
+                <h4>Email Addresses</h4>
+                <p><a href="mailto:sales@unirisebarcode.com">sales@unirisebarcode.com</a><br><a href="mailto:support@unirisebarcode.com">support@unirisebarcode.com</a></p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon" style="background:linear-gradient(135deg,#25d366,#128c7e);"><i class="fab fa-whatsapp"></i></div>
+              <div class="contact-info-text">
+                <h4>WhatsApp</h4>
+                <p><a href="https://wa.me/918595868613" target="_blank">Chat on WhatsApp: +91 85958 68613</a><br>Quick replies for product enquiries</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Office Hours -->
+          <div class="office-hours">
+            <h4><i class="fas fa-clock"></i> Business Hours</h4>
+            <ul>
+              <li><span>Monday – Friday</span> <strong>9:30 AM – 6:30 PM</strong></li>
+              <li><span>Saturday</span> <strong>10:00 AM – 4:00 PM</strong></li>
+              <li><span>Sunday</span> <strong>Closed</strong></li>
+              <li><span>AMC Emergency</span> <strong>24×7 Helpline</strong></li>
+            </ul>
+          </div>
+
+          <!-- Map -->
+          <div class="map-embed">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.3!2d77.272!3d28.544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDMyJzM4LjQiTiA3N8KwMTYnMTkuMiJF!5e0!3m2!1sen!2sin!4v1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <div>
+          <div class="contact-form-card">
+            <h3>Send Us a Message</h3>
+            <p>Fill in the form below and our team will get back to you within 2 business hours.</p>
+            <form id="contactForm">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input type="text" id="firstName" name="firstName" placeholder="Your first name" required />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input type="text" id="lastName" name="lastName" placeholder="Your last name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" placeholder="you@company.com" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
+                </div>
+                <div class="form-group">
+                  <label for="company">Company Name</label>
+                  <input type="text" id="company" name="company" placeholder="Your company name" />
+                </div>
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input type="text" id="city" name="city" placeholder="Your city" />
+                </div>
+                <div class="form-group full">
+                  <label for="enquiryType">Enquiry Type *</label>
+                  <select id="enquiryType" name="enquiryType" required>
+                    <option value="">Select enquiry type...</option>
+                    <option value="quote">Request a Quote</option>
+                    <option value="demo">Product Demo</option>
+                    <option value="support">Technical Support</option>
+                    <option value="amc">AMC / Service Contract</option>
+                    <option value="rfid">RFID Project Enquiry</option>
+                    <option value="software">Software Demo</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group full">
+                  <label for="products">Products / Solutions of Interest</label>
+                  <input type="text" id="products" name="products" placeholder="e.g. Zebra barcode scanners, industrial label printer, RFID system..." />
+                </div>
+                <div class="form-group full">
+                  <label for="message">Your Message *</label>
+                  <textarea id="message" name="message" placeholder="Please describe your requirement in detail — product model, quantity, application, timeline..." required></textarea>
+                </div>
+                <div class="form-group full form-submit">
+                  <button type="submit" class="btn btn-primary btn-lg">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FAQ</span>
+        <h2>Frequently Asked <span>Questions</span></h2>
+      </div>
+      <div style="max-width: 760px; margin: 0 auto;">
+
+        <div class="faq-item">
+          <div class="faq-question">Do you provide warranty on all products? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer"><p>Yes, all products we supply carry the full manufacturer's warranty — typically 1 year for most hardware. Zebra products come with Zebra's standard warranty, Honeywell products with Honeywell's warranty, and so on. We also offer extended warranty and AMC contracts for additional peace of mind.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Do you ship products across all of India? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer"><p>Yes, we deliver to all major cities and towns across India via courier and freight services. Delivery typically takes 1-3 business days for metro cities and 3-5 business days for other locations. Bulk and custom orders may require additional lead time.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Can I get a product demo before buying? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer"><p>Absolutely. We provide free product demonstrations at our Delhi office, or our sales engineers can visit your premises for on-site demos in major cities. For customers in other cities, we offer video demos and can ship demo units on request for qualified projects.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Do you offer installation and training? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer"><p>Yes, we provide professional installation and user training for all equipment. Basic installation and training is included for orders above a certain value. Our certified engineers ensure your team is fully trained before we close a project.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">What is your response time for technical support? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer"><p>For AMC customers, we guarantee a 4-hour telephone/remote response and next-business-day on-site response in metro cities. For non-AMC customers, we provide best-effort support. We recommend taking an AMC contract for business-critical equipment to ensure minimal downtime.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Do you provide GST invoices? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer"><p>Yes, all purchases come with a proper GST-compliant tax invoice. We are a registered GST entity and can provide invoices suitable for Input Tax Credit (ITC) claims by your business.</p></div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Can you handle government tenders? <i class="fas fa-chevron-down"></i></div>
+          <div class="faq-answer"><p>Yes, we regularly participate in and supply to government tenders at central and state levels, including PSUs, hospitals, educational institutions and defense establishments. We are registered on GeM portal and can provide all necessary documentation for government procurement.</p></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-banner">
+    <div class="container">
+      <h2>Need an Urgent Quote?</h2>
+      <p>Call us directly or WhatsApp us for the fastest response. Our sales team is available Mon–Sat, 9:30 AM to 6:30 PM.</p>
+      <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+        <a href="tel:+918595868613" class="btn btn-white btn-lg"><i class="fas fa-phone"></i> +91 85958 68613</a>
+        <a href="https://wa.me/918595868613" target="_blank" class="btn btn-lg" style="background:#25d366; color:white; border:2px solid #25d366;"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><img src="assets/images/logo.png" alt="Unirise Barcode Solutions" class="footer-logo-img"></div>
+          <p>India's leading supplier of barcode scanners, printers, RFID and auto-ID solutions.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+            <li><a href="products.html"><i class="fas fa-chevron-right"></i> Products</a></li>
+            <li><a href="solutions.html"><i class="fas fa-chevron-right"></i> Solutions</a></li>
+            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Products</h4>
+          <ul>
+            <li><a href="products.html#scanners"><i class="fas fa-chevron-right"></i> Barcode Scanners</a></li>
+            <li><a href="products.html#printers"><i class="fas fa-chevron-right"></i> Barcode Printers</a></li>
+            <li><a href="products.html#rfid"><i class="fas fa-chevron-right"></i> RFID Solutions</a></li>
+            <li><a href="products.html#mobile"><i class="fas fa-chevron-right"></i> Mobile Computers</a></li>
+            <li><a href="products.html#pos"><i class="fas fa-chevron-right"></i> POS Systems</a></li>
+            <li><a href="products.html#labels"><i class="fas fa-chevron-right"></i> Labels &amp; Ribbons</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>B-68, Sector 88, Noida Phase-2,<br>Gautam Budh Nagar, U.P 201305</span></div>
+          <div class="footer-contact-item"><i class="fas fa-phone"></i><span><a href="tel:+918595868613">+91 85958 68613</a></span></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope"></i><span><a href="mailto:info@unirisebarcode.com">info@unirisebarcode.com</a></span></div>
+          <div class="footer-contact-item"><i class="fas fa-clock"></i><span>Mon – Sat: 9:30 AM – 6:30 PM</span></div>
+          <div class="footer-contact-item"><i class="fas fa-globe"></i><span><a href="https://www.unirisebarcode.com" target="_blank">www.unirisebarcode.com</a></span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 Unirise Barcode Solutions Pvt. Ltd. All rights reserved.</span>
+        <span>Designed &amp; Developed with <i class="fas fa-heart" style="color:#f97316"></i> in India</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="whatsapp-fab"><a href="https://wa.me/918595868613" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a></div>
+  <button class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const item = q.closest('.faq-item');
+        const wasOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!wasOpen) item.classList.add('open');
+      });
+    });
+  </script>
+</body>
+</html>
